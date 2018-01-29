@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Who's That Pokemon?</title>
+    <link rel="icon" href="assets/images/ball.png">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+
+  
+  </head>
+  
+  <body background="assets/images/pixels.png" style="font-family: 'Press Start 2P', cursive; background-color: #E9E9E9;">
+
+    <nav class="navbar navbar-light">&nbsp;</nav>
+
+      <div class="container bg-white rounded">
+        
+        <div id="jumbotron" class="jumbotron bg-white jumbotron-fluid text-center">
+          <div class="container">
+            <h1 class="display-5">Who's That Pokémon?</h1>
+            <button id="play" type="button" class="btn btn-outline-danger">Play</button>
+            <div id="timer"></div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12 text-center" style="margin-bottom: 30px;">
+            <div id="image"></div>
+            <img id="placeholder" src="assets/images/Pokeball.png" class="img-thumbnail border-dark" style="padding: 20px">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-2 text-center">&nbsp;</div>
+          <div class="col-md-8">
+            <div class="row" style="margin-bottom: 20px;">
+              <div class="text-center" id="textGoesHere"></div>
+            </div>
+          </div>
+          <div class="col-md-2 text-center">&nbsp;</div>
+        </div>
+
+        <div id="instruction" class="row" style="padding-bottom: 20px;">
+          <div class="col-md-1 text-center">&nbsp;</div>
+          <div class="col-md-10 text-center">
+            <p class="lead">Guess the name of the Pokémon. Select from the choices provided. Click play to start.</p>
+          </div>
+          <div class="col-md-1 text-center">&nbsp;</div>
+        </div>
+
+      </div>
+    
+    <nav class="navbar navbar-light">&nbsp;</nav>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+    
+  </body>
+
+</html>

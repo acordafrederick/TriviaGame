@@ -1,0 +1,15 @@
+* {
+	box-sizing: border-box;
+}
+
+h1 {
+	font-family: 'Press Start 2P', cursive;
+}
+
+#jumbotron {
+	padding; 2rem auto;
+}
+
+#play {
+	margin-top: 20px;
+}
