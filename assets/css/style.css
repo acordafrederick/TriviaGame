@@ -2,14 +2,8 @@
 	box-sizing: border-box;
 }
 
-h1 {
+body {
+	background: url("assets/images/pixels.png");
 	font-family: 'Press Start 2P', cursive;
 }
 
-#jumbotron {
-	padding; 2rem auto;
-}
-
-#play {
-	margin-top: 20px;
-}
